@@ -1,0 +1,17 @@
+﻿@page
+@model FindBilibiliUP.Pages.StatusModel
+@{
+    ViewData["Title"] = "服务器状态";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>服务器状态</h1>
+
+<div>
+    <ul>
+        <li>UP主数量：@Model.VModel.UPCount</li>
+        <li>AV数量：@Model.VModel.AVCount</li>
+        <li>已处理照片数量：@Model.VModel.ImageDetectCount</li>
+        <li>有效的人脸照片数量：@Model.VModel.DbFaceCount</li>
+    </ul>
+</div>

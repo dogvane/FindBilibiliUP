@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaiduFaceAI", "BaiduFaceAI\BaiduFaceAI.csproj", "{0DFC9F25-37A0-4539-935D-EF19F6E79E7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaiduFaceAITest", "BaiduFaceAITest\BaiduFaceAITest.csproj", "{8E0A12BA-A648-482D-AF29-03450724FE0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilibiliSpider", "BilibiliSpider\BilibiliSpider.csproj", "{6A47A930-E6A2-4CC2-99A0-64757EDC212D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindBilibiliUP", "FindBilibiliUP\FindBilibiliUP.csproj", "{F7880F72-A302-450D-A2B5-8FE7B9A70592}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AipSdk", "AipSdk\AipSdk.csproj", "{E6F40D2B-6D8D-4E60-9C41-3D9258C4A24E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DFC9F25-37A0-4539-935D-EF19F6E79E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DFC9F25-37A0-4539-935D-EF19F6E79E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DFC9F25-37A0-4539-935D-EF19F6E79E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DFC9F25-37A0-4539-935D-EF19F6E79E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E0A12BA-A648-482D-AF29-03450724FE0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E0A12BA-A648-482D-AF29-03450724FE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E0A12BA-A648-482D-AF29-03450724FE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E0A12BA-A648-482D-AF29-03450724FE0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A47A930-E6A2-4CC2-99A0-64757EDC212D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A47A930-E6A2-4CC2-99A0-64757EDC212D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A47A930-E6A2-4CC2-99A0-64757EDC212D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A47A930-E6A2-4CC2-99A0-64757EDC212D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7880F72-A302-450D-A2B5-8FE7B9A70592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7880F72-A302-450D-A2B5-8FE7B9A70592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7880F72-A302-450D-A2B5-8FE7B9A70592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7880F72-A302-450D-A2B5-8FE7B9A70592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6F40D2B-6D8D-4E60-9C41-3D9258C4A24E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6F40D2B-6D8D-4E60-9C41-3D9258C4A24E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6F40D2B-6D8D-4E60-9C41-3D9258C4A24E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6F40D2B-6D8D-4E60-9C41-3D9258C4A24E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0E15AAD-E2E9-4192-B2C6-D03F55A18CC3}
+	EndGlobalSection
+EndGlobal

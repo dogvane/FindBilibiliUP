@@ -1,0 +1,62 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "人脸识别B站跳舞的小姐姐";
+}
+
+<div class="text-center">
+    <h1 class="display-4">上传图片搜索跳舞的小姐姐</h1>
+    <div>
+        
+        @{
+            if (!string.IsNullOrEmpty(Model.ErrorMessage))
+            {
+                <div class="alert alert-danger" role="alert">
+                    @Model.ErrorMessage
+                </div>
+            }
+        }
+
+        @{
+            if (ViewData["error"].ToString() == "-1")
+            {
+                <form method="post" enctype="multipart/form-data" asp-controller="UploadFiles" >
+                    <div class="form-group">
+                        <div class="col-md-10">
+                            <p>请选择上传的图片</p>
+                            <input class="fileinput" type="file" id="files" name="files"/> <input type="submit" value="查找" class="btn btn-primary" />
+                        </div>
+                    </div>
+                    
+                    <div class="input-group mb-3">
+                        <input type="text" id="imageUrl" name="imageUrl" class="form-control" placeholder="请粘贴图片地址" aria-label="请粘贴图片地址" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <input class="btn btn-outline-secondary" type="submit" value="按图片链接搜索" />
+                        </div>
+                    </div>
+                </form>
+            }
+        }
+        @{
+            if (Model.FindUP != null && Model.FindUP.Length > 0)
+            {
+                foreach (var up in Model.FindUP)
+                {
+                    <div class="up">
+                        @*<img src="@up.FaceUrl" class="face"  />*@
+                        
+                            <a href="https://space.bilibili.com/@up.UPId?spm_id_from=findbilibiliup.csharptools.cn" target="_blank" class="upname">
+                                @up.Name
+                            </a>
+                        
+                        <span class="rate">
+                            相似度：@up.Rate
+                        </span>
+                    </div>
+                }
+            }
+        }
+
+    </div>
+
+</div>
